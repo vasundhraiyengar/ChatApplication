@@ -1,13 +1,16 @@
-# firebase-bower
+# Installation
+> `npm install --save @types/jsonwebtoken`
 
-To use Firebase via Bower, do:
+# Summary
+This package contains type definitions for jsonwebtoken (https://github.com/auth0/node-jsonwebtoken).
 
-```bash
-$ bower install firebase --save
-```
+# Details
+Files were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jsonwebtoken
 
-NOTE: This repo is automatically generated and is not monitored for issues /
-pull requests. Please contact [Firebase support](https://firebase.google.com/support/)
-for any bugs / feature suggestions on Firebase or the Bower module.
+Additional Details
+ * Last updated: Thu, 03 Aug 2017 13:57:01 GMT
+ * Dependencies: node
+ * Global values: none
 
-LICENSE - Refer to: https://developers.google.com/terms
+# Credits
+These definitions were written by Maxime LUCE <https://github.com/SomaticIT>, Daniel Heim <https://github.com/danielheim>.

@@ -1,35 +1,25 @@
 {
-  "name": "firebase",
-  "version": "3.9.0",
-  "homepage": "https://firebase.google.com",
-  "authors": [
-    "Firebase <firebase-support@google.com>"
-  ],
-  "description": "Firebase Web Client",
-  "main": "firebase.js",
-  "keywords": [
-    "Firebase",
-    "realtime",
-    "database",
-    "storage",
-    "authentication"
-  ],
-  "license": "https://developers.google.com/terms",
-  "private": false,
+  "name": "jquery",
+  "main": "dist/jquery.js",
+  "license": "MIT",
   "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "package.json"
   ],
-  "_release": "3.9.0",
+  "keywords": [
+    "jquery",
+    "javascript",
+    "browser",
+    "library"
+  ],
+  "homepage": "https://github.com/jquery/jquery-dist",
+  "version": "3.2.1",
+  "_release": "3.2.1",
   "_resolution": {
     "type": "version",
-    "tag": "v3.9.0",
-    "commit": "1d3a89e5597ecde4bb1266a24c6bd0bca2a3a2be"
+    "tag": "3.2.1",
+    "commit": "77d2a51d0520d2ee44173afdf4e40a9201f5964e"
   },
-  "_source": "https://github.com/firebase/firebase-bower.git",
-  "_target": "3.x.x",
-  "_originalSource": "firebase"
+  "_source": "https://github.com/jquery/jquery-dist.git",
+  "_target": ">= 1.9.1",
+  "_originalSource": "jquery"
 }

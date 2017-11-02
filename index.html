@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Angular md5</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.js"></script>
-  <script src="../angular-md5.js"></script>
-</head>
-<body ng-app="YOUR_APP" ng-controller="MainCtrl" ng-cloak>
-  <img ng-src="http://www.gravatar.com/avatar/{{ email | gravatar }}">
-  <input type="email" ng-model="email" placeholder="Email Address" autofocus>
-  Your email Hash is: {{ message }}
-<!--
-<script src="app/bower_components/angular-md5/angular-md5.js"></script>
--->
-<script>
-  angular.module('YOUR_APP', [
-    'angular-md5', // you may also use 'ngMd5' or 'gdi2290.md5'
-    'controllers'
-  ]);
-  angular.module('controllers', [])
-    .controller('MainCtrl', ['$scope', 'md5', function($scope, md5) {
+<!doctype html> <html class="no-js"> <head> <meta charset="utf-8"> <title>Chatster</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.48978bb9.css"> <link rel="stylesheet" href="styles/main.ab88f510.css"> </head> <body ng-app="chatsterApp"> <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <ui-view></ui-view> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script> !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      $scope.$watch('email' ,function() {
-        $scope.message = md5.createHash($scope.email || '');
-      });
-
-    }]);
-</script>
-</body>
-</html>
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview'); </script> <script src="scripts/vendor.c2c9f6ca.js"></script> <script src="scripts/scripts.6897ef09.js"></script> 
