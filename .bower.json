@@ -1,34 +1,35 @@
 {
-  "name": "angular-ui-router",
-  "version": "0.3.2",
-  "license": "MIT",
-  "main": "./release/angular-ui-router.js",
-  "dependencies": {
-    "angular": "^1.0.8"
-  },
+  "name": "firebase",
+  "version": "3.9.0",
+  "homepage": "https://firebase.google.com",
+  "authors": [
+    "Firebase <firebase-support@google.com>"
+  ],
+  "description": "Firebase Web Client",
+  "main": "firebase.js",
+  "keywords": [
+    "Firebase",
+    "realtime",
+    "database",
+    "storage",
+    "authentication"
+  ],
+  "license": "https://developers.google.com/terms",
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "component.json",
-    "package.json",
-    "lib",
-    "config",
-    "sample",
     "test",
-    "tests",
-    "ngdoc_assets",
-    "Gruntfile.js",
-    "files.js"
+    "tests"
   ],
-  "homepage": "https://github.com/angular-ui/angular-ui-router-bower",
-  "_release": "0.3.2",
+  "_release": "3.9.0",
   "_resolution": {
     "type": "version",
-    "tag": "0.3.2",
-    "commit": "c1989bcd4185a0f5e206646b267024f45a905c06"
+    "tag": "v3.9.0",
+    "commit": "1d3a89e5597ecde4bb1266a24c6bd0bca2a3a2be"
   },
-  "_source": "https://github.com/angular-ui/angular-ui-router-bower.git",
-  "_target": "~0.3.2",
-  "_originalSource": "angular-ui-router"
+  "_source": "https://github.com/firebase/firebase-bower.git",
+  "_target": "3.x.x",
+  "_originalSource": "firebase"
 }
