@@ -2,103 +2,89 @@
   "_args": [
     [
       {
-        "raw": "@types/lodash@^4.14.34",
-        "scope": "@types",
-        "escapedName": "@types%2flodash",
-        "name": "@types/lodash",
-        "rawSpec": "^4.14.34",
-        "spec": ">=4.14.34 <5.0.0",
+        "raw": "crypt@>= 0.0.1",
+        "scope": null,
+        "escapedName": "crypt",
+        "name": "crypt",
+        "rawSpec": ">= 0.0.1",
+        "spec": ">=0.0.1",
         "type": "range"
       },
-      "/Users/wahidstephen/Github/Chatster/functions/node_modules/firebase-functions"
+      "/Users/wahidstephen/Github/Chatster/functions/node_modules/sha1"
     ]
   ],
-  "_from": "@types/lodash@>=4.14.34 <5.0.0",
-  "_id": "@types/lodash@4.14.77",
+  "_from": "crypt@>=0.0.1",
+  "_id": "crypt@0.0.2",
   "_inCache": true,
-  "_location": "/@types/lodash",
+  "_location": "/crypt",
+  "_nodeVersion": "4.4.5",
   "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/lodash-4.14.77.tgz_1507071649947_0.11662322073243558"
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/crypt-0.0.2.tgz_1482450046585_0.08984375675208867"
   },
   "_npmUser": {
-    "name": "types",
-    "email": "ts-npm-types@microsoft.com"
+    "name": "pvorb",
+    "email": "paul@vorba.ch"
   },
+  "_npmVersion": "3.9.3",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "@types/lodash@^4.14.34",
-    "scope": "@types",
-    "escapedName": "@types%2flodash",
-    "name": "@types/lodash",
-    "rawSpec": "^4.14.34",
-    "spec": ">=4.14.34 <5.0.0",
+    "raw": "crypt@>= 0.0.1",
+    "scope": null,
+    "escapedName": "crypt",
+    "name": "crypt",
+    "rawSpec": ">= 0.0.1",
+    "spec": ">=0.0.1",
     "type": "range"
   },
   "_requiredBy": [
-    "/firebase-functions"
+    "/sha1"
   ],
-  "_resolved": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.77.tgz",
-  "_shasum": "0bc699413e84d6ed5d927ca30ea0f0a890b42d75",
+  "_resolved": "https://registry.npmjs.org/crypt/-/crypt-0.0.2.tgz",
+  "_shasum": "88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b",
   "_shrinkwrap": null,
-  "_spec": "@types/lodash@^4.14.34",
-  "_where": "/Users/wahidstephen/Github/Chatster/functions/node_modules/firebase-functions",
-  "contributors": [
-    {
-      "name": "Brian Zengel",
-      "url": "https://github.com/bczengel"
-    },
-    {
-      "name": "Ilya Mochalov",
-      "url": "https://github.com/chrootsu"
-    },
-    {
-      "name": "Stepan Mikhaylyuk",
-      "url": "https://github.com/stepancar"
-    },
-    {
-      "name": "Eric L Anderson",
-      "url": "https://github.com/ericanderson"
-    },
-    {
-      "name": "AJ Richardson",
-      "url": "https://github.com/aj-r"
-    },
-    {
-      "name": "Junyoung Clare Jang",
-      "url": "https://github.com/ailrun"
-    },
-    {
-      "name": "e-cloud",
-      "url": "https://github.com/e-cloud"
-    }
-  ],
+  "_spec": "crypt@>= 0.0.1",
+  "_where": "/Users/wahidstephen/Github/Chatster/functions/node_modules/sha1",
+  "author": {
+    "name": "Paul Vorbach",
+    "email": "paul@vorb.de",
+    "url": "http://vorb.de"
+  },
+  "bugs": {
+    "url": "https://github.com/pvorb/node-crypt/issues"
+  },
   "dependencies": {},
-  "description": "TypeScript definitions for Lo-Dash",
+  "description": "utilities for encryption and hashing",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "integrity": "sha512-sRCTcVQkIiQqRoQcazgN2PvRLS7d9BnSl8elRZR5UYlpm6XgU8F4j/0csz8WoaKKTUqa6rSuOy3Vph7AHfX7KQ==",
-    "shasum": "0bc699413e84d6ed5d927ca30ea0f0a890b42d75",
-    "tarball": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.77.tgz"
+    "shasum": "88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b",
+    "tarball": "https://registry.npmjs.org/crypt/-/crypt-0.0.2.tgz"
   },
-  "license": "MIT",
-  "main": "",
+  "engines": {
+    "node": "*"
+  },
+  "gitHead": "b275e2cde03cab40206dbb2a551b781f51feca3f",
+  "homepage": "https://github.com/pvorb/node-crypt#readme",
+  "license": "BSD-3-Clause",
+  "main": "crypt.js",
   "maintainers": [
     {
-      "name": "types",
-      "email": "ts-npm-types@microsoft.com"
+      "name": "pvorb",
+      "email": "paul@vorb.de"
     }
   ],
-  "name": "@types/lodash",
+  "name": "crypt",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+    "url": "git://github.com/pvorb/node-crypt.git"
   },
   "scripts": {},
-  "typeScriptVersion": "2.4",
-  "typesPublisherContentHash": "96113cf57d4a8414d71587d10472dd2e1bf2399b243d33d57b707f43daca838f",
-  "version": "4.14.77"
+  "tags": [
+    "hash",
+    "security"
+  ],
+  "version": "0.0.2"
 }

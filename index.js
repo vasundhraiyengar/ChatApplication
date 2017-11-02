@@ -1,7 +1,10 @@
-angular.module('angular-md5', ['gdi2290.md5']);
-angular.module('ngMd5', ['gdi2290.md5']);
-angular.module('gdi2290.md5', [
-  'gdi2290.gravatar-filter',
-  'gdi2290.md5-service',
-  'gdi2290.md5-filter'
-]);
+/**
+ * Detect Electron renderer process, which is node, but we should
+ * treat as a browser.
+ */
+
+if (typeof process !== 'undefined' && process.type === 'renderer') {
+  module.exports = require('./browser.js');
+} else {
+  module.exports = require('./node.js');
+}
